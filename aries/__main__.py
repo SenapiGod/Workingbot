@@ -73,10 +73,10 @@ GROUP_START_IMG = (
 )
 
 PM_START_TEXT = """
-Hello there, [👋](https://telegra.ph/file/ac893610cae84f302b2da.jpg) I'm {}.
+Hello there, [👋](https://telegra.ph/file/9acf8ac8f34ddffd78ffb.jpg) I'm {}.
 Im Powerfull Management Bot And I Will Help In Managing Your Group.
-Maintained by : [Aryza](https://t.me/idzxartez)
-Founder And Dev Of : [IDZEROID SYNDICATES](https://t.me/idzeroidsupport).
+Maintained by : [Aftrr](https://t.me/Invincible_itAchi)
+Founder And Dev Of : [999 Gang](https://t.me/Ft999_eXe).
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 • *Uptime:* `{}`
 • `{}` *Users, across* `{}` *chats.*
@@ -97,15 +97,15 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text=" ｢ Support 」", url="http://t.me/idzeroidsupport"),
+        InlineKeyboardButton(text=" ｢ Support 」", url="http://t.me/Ft999_eXe"),
         InlineKeyboardButton(text=" [❌] ", callback_data="close"),
-        InlineKeyboardButton(text=" ｢ Update 」", url="http://t.me/idzeroid"),
+        InlineKeyboardButton(text=" ｢ Update 」", url="http://t.me/ItAchixoBot_Support"),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [Saint Aries](https://telegra.ph/file/ac893610cae84f302b2da.jpg)
+*Main Commands :* [Ken kaneki](https://telegra.ph/file/5acf9438c1846fc571623.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -119,7 +119,7 @@ HELP_STRINGS = f"""
 
 
 DONATE_STRING = """Hello, glad to hear you want to donate!
- You can support the project via [pulsa](#) or by contacting @IdzXartez\
+ You can support the project via [paytm](#) or by contacting @Invincible_itAchi\
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -257,7 +257,7 @@ def start(update: Update, context: CallbackContext):
     else:
         message.reply_animation(
             GROUP_START_IMG,
-            caption="<code> Aries Online \nI am Awake Since</code>: <code>{}</code>".format(
+            caption="<code> Kaneki Online \nI am Awake Since</code>: <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -265,10 +265,10 @@ def start(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Support", url=f"https://telegram.dog/idzeroidsupport"
+                            text="Support", url=f"https://telegram.dog/Ft999_eXe"
                         ),
                         InlineKeyboardButton(
-                            text="Updates", url="https://telegram.dog/idzeroid"
+                            text="Updates", url="https://telegram.dog/ItAchixoBot_Support"
                         ),
                     ],
                 ]
@@ -331,7 +331,7 @@ def help_button(update, context):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Support", url="https://t.me/idzeroidsupport"
+                                text="Support", url="https://t.me/ItAchixoBot_Support"
                             ),
                         ],
                     ]
